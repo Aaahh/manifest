@@ -1,0 +1,9 @@
+Our Manifest
+===========
+
+I repeat its a FUCKING manifest!
+
+repo sync all deh things!
+repo init -u git://github.com/IronPop/manifest.git -b android-5.0
+
+Nothing else Bitches!
