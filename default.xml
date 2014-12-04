@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="caf"
-           fetch="git://codeaurora.org/" />
+<remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
            fetch="https://github.com/"
            review="https://review.fortune-os.in/"/>
 
-  <default revision="caf/LA.BF.1.1_rb1.9"
+  <default revision="refs/tags/android-5.0.0_r7"
            remote="caf"
            sync-j="4" />
 
@@ -342,7 +342,6 @@
   <!-- Qualcomm -->
   <project path="hardware/qcom/audio" name="IronPop/hardware_qcom_audio" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/bt" name="IronPop/hardware_qcom_bt" remote="github" revision="android-5.0" />
-  <project path="hardware/qcom/camera" name="IronPop/hardware_qcom_camera" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/display" name="IronPop/hardware_qcom_display" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/gps" name="IronPop/hardware_qcom_gps" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/keymaster" name="IronPop/hardware_qcom_keymaster" remote="github" revision="android-5.0" />
@@ -362,7 +361,6 @@
   <!-- HackNung -->
   <project path="hardware/samsung_slsi/exynos5" name="IronPop/hardware_samsung_slsi_exynos5" remote="github" revision="android-5.0" />
   <!-- TI -->
-  <project path="hardware/ti/omap3" name="IronPop/hardware_ti_omap3" remote="github" revision="android-5.0" />
   <project path="hardware/ti/omap4xxx" name="IronPop/hardware_ti_omap4xxx" remote="github" revision="android-5.0" />
   <project path="hardware/ti/wlan" name="IronPop/hardware_ti_wlan" remote="github" revision="android-5.0" />
   <project path="hardware/ti/wpan" name="IronPop/hardware_ti_wpan" remote="github" revision="android-5.0" />
@@ -532,13 +530,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Crappy Vendor WTF? -->
-  <project path="vendor/fortune" name="Fortune-OS/\vendor_fortune" remote="github" revision="android-5.0" >
+  <project path="vendor/fortune" name="Fortune-OS/vendor_fortune" remote="github" revision="android-5.0" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/fortune/proprietary" name="IronPop/vendor_fortune_proprietary" remote="github" revision="android-5.0" />
-  <!-- Calling "Hack" everything is all rage nowadays (-_-) -->
-  <project path="vendor/fortune/vendorhack" name="IronPop/vendor_fortune_vendorhack" remote="github" revision="android-5.0" />
-  <!-- Crap ends -->
 
   <!-- Google play services -->
   <project path="external/google/google_play_services" name="IronPop/external_google_google_play_services" remote="github" revision="android-5.0" />
