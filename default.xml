@@ -8,7 +8,7 @@
            review="https://review.fortune-os.in/"/>
 
   <default revision="refs/tags/android-5.0.0_r7"
-           remote="caf"
+           remote="aosp"
            sync-j="4" />
 
   <project path="build" name="IronPop/build" remote="github" revision="android-5.0" >
