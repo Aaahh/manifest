@@ -530,7 +530,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Crappy Vendor WTF? -->
-  <project path="vendor/fortune" name="Fortune-OS/vendor_fortune" remote="github" revision="android-5.0" >
+  <project path="vendor/fortune" name="IronPop/vendor_fortune" remote="github" revision="android-5.0" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
 
@@ -538,7 +538,7 @@
   <project path="external/google/google_play_services" name="IronPop/external_google_google_play_services" remote="github" revision="android-5.0" />
 
   <!--CyanogenMod SamsungServiceMode -->
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.0" />
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="IronPop/external_qrngd" remote="github" revision="android-5.0" />
