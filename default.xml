@@ -44,7 +44,10 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
+  <!-- Qcom Specific -->
   <project path="device/qcom/sepolicy" name="IronPop/device_qcom_sepolicy" remote="github" revision="android-5.0" />
+  <project path="device/qcom/common" name="IronPop/device_qcom_common" remote="github" revision="android-5.0" />
+  <!-- Qcom Ends -->
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   
@@ -343,11 +346,17 @@
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <!-- Qualcomm -->
   <project path="hardware/qcom/audio" name="IronPop/hardware_qcom_audio" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="IronPop/hardware_qcom_audio-caf-afam" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="IronPop/hardware_qcom_audio-caf-bfam" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/bt" name="IronPop/hardware_qcom_bt" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/display" name="IronPop/hardware_qcom_display" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/display-caf/msm8960" name="IronPop/hardware_qcom_display-caf-afam" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/display-caf/msm8974" name="IronPop/hardware_qcom_display-caf-bfam" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/gps" name="IronPop/hardware_qcom_gps" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/keymaster" name="IronPop/hardware_qcom_keymaster" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/media" name="IronPop/hardware_qcom_media" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/media-caf/msm8960" name="IronPop/hardware_qcom_media-caf-afam" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/media-caf/msm8974" name="IronPop/hardware_qcom_media-caf-bfam" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
