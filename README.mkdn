@@ -1,9 +1,21 @@
-Our Manifest
-===========
+Fortune - Next
+==============
 
-I repeat its a FUCKING manifest!
+lp-testing
+----------
 
-repo sync all deh things!
-repo init -u git://github.com/IronPop/manifest.git -b android-5.0
+This Branch is used for testing unstable stuff before merging in mainline branch [android-5.0] not to be used by any builder
 
-Nothing else Bitches!
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the Device trees, use a command like this:
+
+    repo init -u git://github.com/IronPop/manifest.git -b lp-testing
+
+Then to sync up:
+
+    repo sync
