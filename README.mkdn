@@ -16,5 +16,5 @@ Then to sync up:
 
     repo sync -j#
     
-# is the number of specific Jobs(threads), change in accordance to internet speed. 
+ # is the number of specific Jobs(threads), change in accordance to internet speed. 
 Default is 4.
