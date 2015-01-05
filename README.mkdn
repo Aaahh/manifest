@@ -14,5 +14,7 @@ To initialize your local repository using the Fortune trees, use a command like 
 
 Then to sync up:
 
-    repo sync
-
+    repo sync -j#
+    
+# is the number of specific Jobs(threads), change in accordance to internet speed. 
+Default is 4.
