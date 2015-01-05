@@ -1,6 +1,6 @@
 Fortune OS
 ==========
-http://www.fortune-os.in/
+[Fortune OS Website] (http://www.fortune-os.in/)
 
 Getting Started
 ---------------
